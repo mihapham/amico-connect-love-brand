@@ -117,16 +117,8 @@ const ContactSection = () => {
               
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Thứ Hai - Thứ Sáu:</span>
-                  <span className="font-medium text-gray-800">8:00 - 18:00</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Thứ Bảy:</span>
-                  <span className="font-medium text-gray-800">8:00 - 12:00</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Chủ Nhật:</span>
-                  <span className="font-medium text-gray-800">Đóng cửa</span>
+                  <span className="text-gray-600">Tất cả các ngày trong tuần:</span>
+                  <span className="font-medium text-gray-800">6:30 - 21:30</span>
                 </div>
               </div>
             </div>
