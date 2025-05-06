@@ -16,9 +16,11 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <span className="text-2xl font-serif font-bold text-amico-blue">
-                AMI<span className="text-amico-gold">CO</span>
-              </span>
+              <img 
+                src="/lovable-uploads/3de4b567-634f-4216-a766-63bccae32694.png" 
+                alt="AMICO Logo" 
+                className="h-12 mr-2" 
+              />
             </a>
           </div>
 

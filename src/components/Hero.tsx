@@ -15,6 +15,14 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center text-center">
+          <div className="mb-8">
+            <img 
+              src="/lovable-uploads/3de4b567-634f-4216-a766-63bccae32694.png" 
+              alt="AMICO Logo" 
+              className="h-32 md:h-40 mx-auto" 
+            />
+          </div>
+          
           <h1 className="text-4xl md:text-6xl font-bold mb-6 font-serif">
             <span className="block">
               Công ty cổ phần Quốc tế
