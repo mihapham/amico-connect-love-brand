@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,57 +16,57 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <img 
                 src="/lovable-uploads/3de4b567-634f-4216-a766-63bccae32694.png" 
                 alt="AMICO Logo" 
                 className="h-12 mr-2" 
               />
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <ul className="flex space-x-8">
               <li>
-                <a
-                  href="#home"
+                <Link
+                  to="/"
                   className="text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                 >
                   Trang chủ
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#products"
+                <Link
+                  to="/products"
                   className="text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                 >
                   Sản phẩm
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#about"
+                <Link
+                  to="/about"
                   className="text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                 >
                   Giới thiệu
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#blog"
+                <Link
+                  to="/blog"
                   className="text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                 >
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                 >
                   Liên hệ
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -86,49 +87,49 @@ const Navbar = () => {
           <div className="md:hidden py-4 animate-fade-in">
             <ul className="flex flex-col space-y-4 pb-4">
               <li>
-                <a
-                  href="#home"
+                <Link
+                  to="/"
                   className="block text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                   onClick={toggleMenu}
                 >
                   Trang chủ
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#products"
+                <Link
+                  to="/products"
                   className="block text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                   onClick={toggleMenu}
                 >
                   Sản phẩm
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#about"
+                <Link
+                  to="/about"
                   className="block text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                   onClick={toggleMenu}
                 >
                   Giới thiệu
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#blog"
+                <Link
+                  to="/blog"
                   className="block text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                   onClick={toggleMenu}
                 >
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="block text-gray-700 hover:text-amico-gold font-medium transition-colors duration-300"
                   onClick={toggleMenu}
                 >
                   Liên hệ
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
