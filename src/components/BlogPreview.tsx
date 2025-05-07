@@ -10,6 +10,7 @@ export type BlogPost = {
   date: string;
   image: string;
   category: string;
+  content?: string;
 };
 
 export const blogs: BlogPost[] = [
@@ -19,7 +20,34 @@ export const blogs: BlogPost[] = [
     excerpt: "Khám phá những bí quyết để chọn được bó hoa tươi hoàn hảo cho mỗi dịp khác nhau.",
     date: "20 tháng 4, 2025",
     image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
-    category: "Hoa Tươi"
+    category: "Hoa Tươi",
+    content: `Hoa tươi luôn là món quà ý nghĩa trong mọi dịp, từ sinh nhật, kỷ niệm, đến những ngày lễ lớn. Nhưng làm thế nào để chọn được bó hoa phù hợp và truyền tải đúng thông điệp? Dưới đây là một vài bí quyết giúp bạn:
+
+1. Hiểu Ý Nghĩa Của Hoa
+Mỗi loại hoa đều mang một ý nghĩa riêng. Ví dụ:
+
+Hoa hồng đỏ: Biểu tượng của tình yêu và đam mê.
+Hoa hướng dương: Đại diện cho sự lạc quan và niềm vui.
+Hoa lan: Thể hiện sự sang trọng và tinh tế.
+Hãy chọn hoa phù hợp với thông điệp bạn muốn gửi gắm.
+
+2. Chọn Hoa Theo Dịp
+Sinh nhật: Những bó hoa rực rỡ, tươi tắn như cúc họa mi, hướng dương hoặc hoa hồng.
+Kỷ niệm: Hoa lan hoặc hoa lily trắng mang lại sự trang nhã, tinh tế.
+Ngày lễ: Hoa hồng đỏ hoặc hoa tulip là lựa chọn phổ biến.
+
+3. Kiểm Tra Độ Tươi Của Hoa
+Hãy chú ý đến cánh hoa, lá và thân. Hoa tươi thường có màu sắc sáng, lá không bị héo úa, và cánh hoa không bị dập nát.
+
+4. Chọn Bó Hoa Có Thiết Kế Đẹp
+Một bó hoa được gói cẩn thận sẽ tạo ấn tượng mạnh hơn. Bạn có thể chọn các bó hoa được phối màu hài hòa hoặc có phụ kiện đi kèm như ruy băng, giấy gói cao cấp.
+
+5. Đặt Hoa Tại Nơi Uy Tín
+Hãy tìm đến các cửa hàng hoa chuyên nghiệp như Emo Flowers, nơi cam kết mang đến những bó hoa tươi đẹp, chất lượng cho mọi dịp đặc biệt.
+
+Với những bí quyết trên, bạn sẽ dễ dàng chọn được bó hoa hoàn hảo để gửi gắm tình cảm của mình. Hãy để hoa tươi thay lời muốn nói và làm cho mỗi dịp đặc biệt trở nên đáng nhớ hơn!
+
+Đặt hoa ngay hôm nay tại Emo Flowers để nhận ưu đãi đặc biệt!`
   },
   {
     id: 2,
@@ -27,15 +55,56 @@ export const blogs: BlogPost[] = [
     excerpt: "Trầm hương không chỉ có mùi thơm dễ chịu mà còn mang lại nhiều lợi ích sức khỏe bất ngờ.",
     date: "15 tháng 4, 2025",
     image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901",
-    category: "Trầm Hương"
+    category: "Trầm Hương",
+    content: `Trầm hương từ lâu đã được xem là một món quà quý giá từ thiên nhiên. Không chỉ có hương thơm dễ chịu, trầm hương còn mang lại nhiều lợi ích sức khỏe và tinh thần đáng kinh ngạc. Dưới đây là 5 lý do bạn nên đốt trầm hương mỗi ngày:
+
+1. Thư Giãn Tâm Trí
+Hương thơm dịu nhẹ từ trầm hương giúp giảm căng thẳng, lo âu và mang lại cảm giác thư thái. Đây là cách tuyệt vời để thư giãn sau một ngày làm việc mệt mỏi.
+
+2. Cải Thiện Chất Lượng Giấc Ngủ
+Đốt trầm hương trước khi ngủ giúp làm dịu tâm trí, tạo không gian yên tĩnh và hỗ trợ giấc ngủ sâu hơn, đặc biệt phù hợp với những người thường xuyên mất ngủ.
+
+3. Thanh Lọc Không Khí
+Trầm hương có khả năng khử mùi và làm sạch không khí, loại bỏ các tạp chất và tạo ra không gian sống trong lành, dễ chịu hơn.
+
+4. Tăng Cường Sự Tập Trung
+Hương trầm giúp kích thích sự tỉnh táo và tập trung, rất hữu ích khi bạn cần làm việc, học tập hoặc thiền định.
+
+5. Mang Lại Phong Thủy Tốt
+Trong phong thủy, trầm hương được xem như một vật phẩm mang lại may mắn, tài lộc và năng lượng tích cực cho gia đình.
+
+Đốt trầm hương không chỉ là một thói quen thư giãn mà còn là cách để chăm sóc sức khỏe tinh thần và không gian sống. Hãy thử ngay hôm nay với các sản phẩm trầm hương cao cấp từ Emo Incense để cảm nhận sự khác biệt!
+
+Khám phá các loại trầm hương tại Emo Incense và mang lại sự bình an cho ngôi nhà của bạn!`
   },
   {
     id: 3,
-    title: "Phương pháp học tiếng Anh hiệu quả dành cho người mới bắt đầu",
-    excerpt: "Những phương pháp đơn giản nhưng cực kỳ hiệu quả để bắt đầu hành trình chinh phục tiếng Anh.",
+    title: "Phương pháp học tiếng Anh hiệu quả dành cho trẻ em",
+    excerpt: "Khám phá những phương pháp học tiếng Anh thú vị và hiệu quả, giúp trẻ phát triển kỹ năng ngôn ngữ tự nhiên ngay từ nhỏ.",
     date: "10 tháng 4, 2025",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    category: "Tiếng Anh"
+    category: "Tiếng Anh",
+    content: `Việc học tiếng Anh từ nhỏ không chỉ giúp trẻ phát triển tư duy ngôn ngữ mà còn mở ra nhiều cơ hội trong tương lai. Tuy nhiên, để trẻ học hiệu quả, bố mẹ cần áp dụng các phương pháp phù hợp. Dưới đây là một số gợi ý hữu ích:
+
+1. Học Qua Trò Chơi
+Trẻ em học tốt nhất khi được vui chơi. Các trò chơi như ghép chữ, đố vui, hoặc học từ vựng qua hình ảnh sẽ giúp trẻ ghi nhớ từ mới một cách tự nhiên và lâu dài.
+
+2. Xem Phim Hoặc Nghe Nhạc Tiếng Anh
+Phim hoạt hình và bài hát tiếng Anh không chỉ giúp trẻ làm quen với cách phát âm mà còn kích thích sự yêu thích ngôn ngữ. Hãy chọn những nội dung phù hợp với độ tuổi của trẻ.
+
+3. Tạo Môi Trường Học Tập Tự Nhiên
+Hãy khuyến khích trẻ sử dụng tiếng Anh trong các tình huống hàng ngày, như gọi tên đồ vật, chào hỏi hoặc trò chuyện đơn giản. Một môi trường học tập tự nhiên sẽ giúp trẻ tự tin hơn.
+
+4. Học Cùng Giáo Viên Bản Ngữ
+Việc tiếp xúc với giáo viên bản ngữ giúp trẻ rèn luyện khả năng phát âm và ngữ điệu chuẩn ngay từ đầu. Đây là cách hiệu quả để trẻ làm quen với ngôn ngữ một cách chuyên nghiệp.
+
+5. Luyện Tập Đều Đặn Và Kiên Nhẫn
+Để trẻ học tốt, điều quan trọng là duy trì sự luyện tập đều đặn. Hãy tạo lịch học cố định nhưng không quá áp lực để trẻ cảm thấy thoải mái.
+
+Cam English Center – Đồng Hành Cùng Bé Yêu Học Tiếng Anh
+Tại Cam English Center, chúng tôi áp dụng các phương pháp học tập hiện đại, kết hợp giữa vui chơi và học tập để giúp trẻ phát triển toàn diện kỹ năng tiếng Anh.
+
+Hãy để bé yêu của bạn trải nghiệm môi trường học tiếng Anh thú vị và hiệu quả ngay hôm nay! Đăng ký ngay để nhận ưu đãi đặc biệt!`
   }
 ];
 

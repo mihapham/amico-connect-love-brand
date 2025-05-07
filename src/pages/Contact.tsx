@@ -71,6 +71,7 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-bold mb-1">Giờ Làm Việc</h3>
                       <p className="text-gray-600">Tất cả các ngày trong tuần: 6:30 - 21:30</p>
+                      <p className="text-gray-500 text-sm mt-1">Thời gian cụ thể áp dụng riêng cho từng thương hiệu.</p>
                     </div>
                   </div>
                 </div>

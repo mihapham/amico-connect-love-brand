@@ -120,6 +120,7 @@ const ContactSection = () => {
                   <span className="text-gray-600">Tất cả các ngày trong tuần:</span>
                   <span className="font-medium text-gray-800">6:30 - 21:30</span>
                 </div>
+                <p className="text-gray-500 mt-2">Thời gian cụ thể áp dụng riêng cho từng thương hiệu.</p>
               </div>
             </div>
           </div>
