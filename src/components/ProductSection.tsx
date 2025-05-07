@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Product type definition
 type Product = {
@@ -12,7 +12,7 @@ type Product = {
   image: string;
 };
 
-const products: Product[] = [
+export const products: Product[] = [
   {
     id: 1,
     name: "Hoa tươi",
@@ -72,29 +72,43 @@ const products: Product[] = [
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-      <div className="h-48 overflow-hidden relative">
-        <img 
-          src={product.image} 
-          alt={product.name} 
-          className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-110"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-        <div className="absolute bottom-3 left-4 text-white">
-          <h4 className="text-sm font-medium">{product.brand}</h4>
+      <Link to={`/products/${product.id}`} className="block">
+        <div className="h-48 overflow-hidden relative">
+          <img 
+            src={product.image} 
+            alt={product.name} 
+            className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <div className="absolute bottom-3 left-4 text-white">
+            <h4 className="text-sm font-medium">{product.brand}</h4>
+          </div>
         </div>
-      </div>
+      </Link>
       <div className="p-6">
-        <h3 className="text-xl font-serif font-bold mb-2 text-gray-800">{product.name}</h3>
+        <Link to={`/products/${product.id}`} className="block">
+          <h3 className="text-xl font-serif font-bold mb-2 text-gray-800 hover:text-amico-blue transition-colors">
+            {product.name}
+          </h3>
+        </Link>
         <p className="text-gray-600 mb-4 text-sm">{product.description}</p>
-        <a 
-          href={product.ctaLink} 
-          className="text-amico-blue hover:text-amico-blue-dark text-sm font-medium transition-colors duration-300 inline-flex items-center"
-        >
-          {product.cta}
-          <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-          </svg>
-        </a>
+        <div className="flex justify-between items-center">
+          <a 
+            href={product.ctaLink} 
+            className="text-amico-blue hover:text-amico-blue-dark text-sm font-medium transition-colors duration-300 inline-flex items-center"
+          >
+            {product.cta}
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <Link 
+            to={`/products/${product.id}`} 
+            className="text-gray-500 hover:text-amico-blue text-sm transition-colors"
+          >
+            Chi tiết
+          </Link>
+        </div>
       </div>
     </div>
   );
