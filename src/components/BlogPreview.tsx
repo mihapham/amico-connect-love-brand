@@ -1,7 +1,9 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { ChevronRight } from 'lucide-react';
 
-type BlogPost = {
+export type BlogPost = {
   id: number;
   title: string;
   excerpt: string;
@@ -10,7 +12,7 @@ type BlogPost = {
   category: string;
 };
 
-const blogs: BlogPost[] = [
+export const blogs: BlogPost[] = [
   {
     id: 1,
     title: "Cách chọn hoa tươi cho những dịp đặc biệt",
@@ -67,24 +69,22 @@ const BlogPreview = () => {
                 <p className="text-gray-500 text-sm mb-2">{blog.date}</p>
                 <h3 className="text-xl font-serif font-bold mb-3 text-gray-800">{blog.title}</h3>
                 <p className="text-gray-600 mb-4 text-sm line-clamp-3">{blog.excerpt}</p>
-                <a 
-                  href="#" 
+                <Link 
+                  to={`/blog/${blog.id}`}
                   className="text-amico-blue hover:text-amico-blue-dark font-medium transition-colors duration-300 inline-flex items-center"
                 >
                   Đọc thêm
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                  <ChevronRight className="w-4 h-4 ml-1" />
+                </Link>
               </div>
             </div>
           ))}
         </div>
         
         <div className="text-center mt-12">
-          <a href="#" className="btn-blue">
+          <Link to="/blog" className="btn-blue">
             Xem Tất Cả Bài Viết
-          </a>
+          </Link>
         </div>
       </div>
     </section>
