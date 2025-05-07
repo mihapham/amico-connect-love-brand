@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -15,10 +16,10 @@ type Product = {
 export const products: Product[] = [
   {
     id: 1,
-    name: "Hoa tươi",
-    brand: "Emo Flowers",
+    name: "Dịch vụ hoa tươi",
+    brand: "Tiệm hoa Emo Flowers",
     description: "Nơi mang đến những bó hoa tươi đẹp cho mọi dịp.",
-    cta: "Đặt Hoa Tươi Cho Dịp Đặc Biệt Của Bạn!",
+    cta: "Đặt Hoa Tươi Cho Dịp Đặc Biệt!",
     ctaLink: "#contact",
     image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
   },
@@ -27,7 +28,7 @@ export const products: Product[] = [
     name: "Nến thơm",
     brand: "Tường Vy",
     description: "Sản phẩm nến thơm với hương liệu tự nhiên, tạo không gian thư giãn.",
-    cta: "Mua Ngay Nến Thơm Để Tạo Không Gian Thư Giãn!",
+    cta: "Mua Nến Thơm Tạo Không Gian Thư Giãn!",
     ctaLink: "#contact",
     image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
   },
@@ -36,16 +37,16 @@ export const products: Product[] = [
     name: "Trầm hương",
     brand: "Emo Incense",
     description: "Trầm hương cao cấp, mang lại trải nghiệm tâm linh và thư giãn.",
-    cta: "Đặt Hàng Trầm Hương Cao Cấp Ngay Bây Giờ!",
+    cta: "Đặt Trầm Hương Cao Cấp Ngay Hôm Nay!",
     ctaLink: "#contact",
     image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
   },
   {
     id: 4,
-    name: "Xuất nhập khẩu hoa",
+    name: "Kho xuất nhập khẩu hoa",
     brand: "Amico",
     description: "Đối tác tin cậy cho các dịch vụ xuất nhập khẩu hoa.",
-    cta: "Hoa nào trên thế giới có, bạn đều có thể đặt ở Amico!",
+    cta: "Đặt Hoa Nhập Khẩu Chất Lượng Tại Amico!",
     ctaLink: "#contact",
     image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
   },
@@ -54,7 +55,7 @@ export const products: Product[] = [
     name: "Trung tâm tiếng Anh",
     brand: "Cam English Center",
     description: "Nơi học tiếng Anh hiệu quả và thú vị.",
-    cta: "Đăng Ký Khóa Học Ngay Hôm Nay Để Nâng Cao Kỹ Năng Tiếng Anh Của Bé!",
+    cta: "Đăng Ký Học Tiếng Anh Hiệu Quả Ngay!",
     ctaLink: "#contact",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
   },
@@ -63,7 +64,7 @@ export const products: Product[] = [
     name: "Tư vấn xuất khẩu lao động và học tập",
     brand: "Amico Consulting",
     description: "Dịch vụ tư vấn chuyên nghiệp cho mọi nhu cầu.",
-    cta: "Liên Hệ Ngay Để Nhận Tư Vấn Miễn Phí!",
+    cta: "Liên Hệ Để Tư Vấn Xuất Khẩu Miễn Phí!",
     ctaLink: "#contact",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
   },

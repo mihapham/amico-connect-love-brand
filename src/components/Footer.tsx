@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-amico-gold transition-colors duration-300">
-                  Tiếng Anh - Cam English Center
+                  Giáo dục - Cam English Center
                 </a>
               </li>
               <li>
@@ -107,6 +107,16 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
                 <span className="text-gray-400">Số 4, Ngõ 78, Thái Thịnh, Ngã tư sở, Đống Đa, Hà Nội</span>
+              </li>
+              <li className="flex pt-3">
+                <svg className="w-5 h-5 text-amico-gold mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <div className="text-gray-400">
+                  <h5 className="font-medium mb-1">Giờ Làm Việc</h5>
+                  <p>Tất cả các ngày trong tuần: 6:30 - 21:30</p>
+                  <p className="text-sm text-gray-500 mt-1">Thời gian cụ thể áp dụng riêng cho từng thương hiệu.</p>
+                </div>
               </li>
             </ul>
             <div className="mt-6">

@@ -97,67 +97,6 @@ const About = () => {
           </div>
         </section>
 
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-serif font-bold mb-4">Đội Ngũ Của Chúng Tôi</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Đội ngũ AMICO gồm những chuyên gia giàu kinh nghiệm, nhiệt huyết và luôn sẵn sàng hỗ trợ khách hàng.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="mb-4 relative mx-auto w-48 h-48 overflow-hidden rounded-full">
-                  <img 
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a" 
-                    alt="CEO"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-bold">Nguyễn Văn A</h3>
-                <p className="text-gray-600 mb-2">Giám Đốc Điều Hành</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="mb-4 relative mx-auto w-48 h-48 overflow-hidden rounded-full">
-                  <img 
-                    src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e" 
-                    alt="Marketing Director"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-bold">Nguyễn Thị B</h3>
-                <p className="text-gray-600 mb-2">Giám Đốc Marketing</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="mb-4 relative mx-auto w-48 h-48 overflow-hidden rounded-full">
-                  <img 
-                    src="https://images.unsplash.com/photo-1542190891-2093d38760f2" 
-                    alt="Product Manager"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-bold">Trần Văn C</h3>
-                <p className="text-gray-600 mb-2">Quản Lý Sản Phẩm</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="mb-4 relative mx-auto w-48 h-48 overflow-hidden rounded-full">
-                  <img 
-                    src="https://images.unsplash.com/photo-1598257006458-087169a1f08d" 
-                    alt="Customer Support"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-bold">Lê Thị D</h3>
-                <p className="text-gray-600 mb-2">Hỗ Trợ Khách Hàng</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="bg-gray-900 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">

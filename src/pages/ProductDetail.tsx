@@ -198,7 +198,6 @@ const ProductDetail = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products
               .filter(p => p.id !== product.id)
-              .slice(0, 3)
               .map((relatedProduct) => (
                 <Link 
                   key={relatedProduct.id} 
