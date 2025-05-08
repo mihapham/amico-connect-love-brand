@@ -19,7 +19,7 @@ export const blogs: BlogPost[] = [
     title: "Cách chọn hoa tươi cho những dịp đặc biệt",
     excerpt: "Khám phá những bí quyết để chọn được bó hoa tươi hoàn hảo cho mỗi dịp khác nhau.",
     date: "20 tháng 4, 2025",
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
+    image: "public/lovable-uploads/c67c68c2-0791-468a-9652-ca03896486b8.png",
     category: "Hoa Tươi",
     content: `Hoa tươi luôn là món quà ý nghĩa trong mọi dịp, từ sinh nhật, kỷ niệm, đến những ngày lễ lớn. Nhưng làm thế nào để chọn được bó hoa phù hợp và truyền tải đúng thông điệp? Dưới đây là một vài bí quyết giúp bạn:
 
@@ -54,7 +54,7 @@ Với những bí quyết trên, bạn sẽ dễ dàng chọn được bó hoa h
     title: "5 lợi ích của việc đốt trầm hương mỗi ngày",
     excerpt: "Trầm hương không chỉ có mùi thơm dễ chịu mà còn mang lại nhiều lợi ích sức khỏe bất ngờ.",
     date: "15 tháng 4, 2025",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901",
+    image: "public/lovable-uploads/69b3da34-0b09-4fe3-aefa-d2342247dc1f.png",
     category: "Trầm Hương",
     content: `Trầm hương từ lâu đã được xem là một món quà quý giá từ thiên nhiên. Không chỉ có hương thơm dễ chịu, trầm hương còn mang lại nhiều lợi ích sức khỏe và tinh thần đáng kinh ngạc. Dưới đây là 5 lý do bạn nên đốt trầm hương mỗi ngày:
 
@@ -82,7 +82,7 @@ Khám phá các loại trầm hương tại Emo Incense và mang lại sự bìn
     title: "Phương pháp học tiếng Anh hiệu quả dành cho trẻ em",
     excerpt: "Khám phá những phương pháp học tiếng Anh thú vị và hiệu quả, giúp trẻ phát triển kỹ năng ngôn ngữ tự nhiên ngay từ nhỏ.",
     date: "10 tháng 4, 2025",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    image: "public/lovable-uploads/43b60ac7-d863-4973-8b20-98ea143615e4.png",
     category: "Tiếng Anh",
     content: `Việc học tiếng Anh từ nhỏ không chỉ giúp trẻ phát triển tư duy ngôn ngữ mà còn mở ra nhiều cơ hội trong tương lai. Tuy nhiên, để trẻ học hiệu quả, bố mẹ cần áp dụng các phương pháp phù hợp. Dưới đây là một số gợi ý hữu ích:
 

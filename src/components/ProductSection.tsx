@@ -21,7 +21,7 @@ export const products: Product[] = [
     description: "Nơi mang đến những bó hoa tươi đẹp cho mọi dịp.",
     cta: "Đặt Hoa Tươi Cho Dịp Đặc Biệt!",
     ctaLink: "#contact",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+    image: "public/lovable-uploads/1f726c13-d0c4-470d-b460-1ac30ac72abb.png",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const products: Product[] = [
     description: "Sản phẩm nến thơm với hương liệu tự nhiên, tạo không gian thư giãn.",
     cta: "Mua Nến Thơm Tạo Không Gian Thư Giãn!",
     ctaLink: "#contact",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
+    image: "public/lovable-uploads/7c212f22-98e6-4471-b066-48cf0abeb713.png",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const products: Product[] = [
     description: "Trầm hương cao cấp, mang lại trải nghiệm tâm linh và thư giãn.",
     cta: "Đặt Trầm Hương Cao Cấp Ngay Hôm Nay!",
     ctaLink: "#contact",
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
+    image: "public/lovable-uploads/7f22cd46-4844-4882-b49b-43181ffd1ae1.png",
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export const products: Product[] = [
     description: "Đối tác tin cậy cho các dịch vụ xuất nhập khẩu hoa.",
     cta: "Đặt Hoa Nhập Khẩu Chất Lượng Tại Amico!",
     ctaLink: "#contact",
-    image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
+    image: "public/lovable-uploads/0c8cadf5-62df-49e8-a97f-dca6b5e56305.png",
   },
   {
     id: 5,
@@ -57,16 +57,16 @@ export const products: Product[] = [
     description: "Nơi học tiếng Anh hiệu quả và thú vị.",
     cta: "Đăng Ký Học Tiếng Anh Hiệu Quả Ngay!",
     ctaLink: "#contact",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "public/lovable-uploads/08d66898-ee47-4b84-92ea-c01bc66e7986.png",
   },
   {
     id: 6,
-    name: "Tư vấn xuất khẩu lao động và học tập",
+    name: "Tư vấn xuất khẩu lao động và du học",
     brand: "Amico Consulting",
     description: "Dịch vụ tư vấn chuyên nghiệp cho mọi nhu cầu.",
     cta: "Liên Hệ Để Tư Vấn Xuất Khẩu Miễn Phí!",
     ctaLink: "#contact",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    image: "public/lovable-uploads/ded00725-3442-49aa-9cf7-7071c81d68db.png",
   },
 ];
 
